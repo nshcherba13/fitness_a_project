@@ -1,0 +1,395 @@
+:root {
+    --color-black: #162126;
+    --color-gray: #889190;
+    --color-white: #fefefe;
+    --color-red: #da1430;
+    --color-lightgray: #f4f4f4;
+    --color-darkgray: #d9d9d9;
+}
+
+/*Subclasses*/
+.bg-black {
+    background-color: var(--color-black) !important;
+}
+
+.bg-gray {
+    background-color: var(--color-gray) !important;
+}
+
+.bg-white {
+    background-color: var(--color-white);
+}
+
+.bg-lightgray {
+    background-color: var(--color-lightgray) !important;
+}
+
+.bg-darkgray {
+    background-color: var(--color-darkgray);
+}
+
+
+/*Font*/
+
+/* Header styling */
+h1,
+.slogan,
+.header {
+    font-family: 'Antique Olive STD Nord', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 300%;
+}
+
+/* Sub-header styling */
+h2,
+h5,
+.header-2 {
+    font-family: 'Antique Olive STD Nord', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 140%;
+    color: var(--color-black);
+}
+
+/* Main text styling */
+body,
+.p {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+}
+
+.description {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Footer slogan styling */
+.footer-slogan {
+    font-family: 'SF Pro Display Black', sans-serif;
+    font-weight: 900;
+}
+
+/* Footer hashtag styling */
+.footer-hashtag {
+    font-family: 'SF Pro Display Black Italic', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.btn-font {
+    font-family: 'Antique Olive STD Nord', sans-serif !important;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 120%;
+}
+
+
+/*Header*/
+header {
+    background-color: var(--color-gray);
+    padding-bottom: 10px;
+    position: sticky;
+}
+
+.club-logo {
+    max-height: 70px;
+}
+
+.club-btn {
+    width: 200px;
+    height: 80px;
+    border-radius: 40px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+/*sidebar*/
+.sidebar {
+    overflow-y: auto;
+    width: 280px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--color-red) !important;
+}
+
+
+/*Footer*/
+.footer-container {
+    border-width: 10px !important;
+    background-color: var(--color-gray) !important;
+    color: var(--color-white) !important;
+    border-top: 5px solid var(--color-red) !important;
+}
+
+
+.footer-link-text:hover {
+    color: var(--color-red)
+}
+
+.fs-1 {
+    font-size: 3.2rem !important;
+}
+
+.fs-6 {
+    font-size: 1.09rem !important;
+}
+
+.bg-danger {
+    background-color: var(--color-red) !important;
+}
+
+
+.buttons-ui {
+    width: 300px;
+}
+
+.buttons-ui:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.button-delete {
+    background-color: var(--color-red);
+}
+
+.edit-icon {
+    color: var(--color-red);
+    font-size: "1rem";
+}
+
+.button-search {
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.button-search:hover {
+    background-color: var(--color-black);
+}
+
+.btn-utility{
+    background-color: var(--color-gray) !important;
+    border: var(--color-gray) !important;
+}
+
+.btn-utility:hover {
+    background-color: var(--color-black) !important;
+}
+.table {
+    max-width: 1500px;
+}
+
+a.link-primary {
+    color: var(--color-white) !important;
+    text-decoration: none !important;
+    font-family: 'SF Pro Display Black Italic', sans-serif !important;
+    font-weight: 400;
+
+}
+
+a.link-primary:hover {
+    color: var(--color-red) !important;
+}
+
+.list-group-item.active {
+    background-color: var(--color-red) !important;
+    color: var(--color-white) !important;
+    border-color: var(--color-red) !important;
+}
+
+
+
+.icon-hover {
+    transition: color 0.3s;
+}
+
+.icon-hover:hover {
+    color: var(--color-red) !important;
+}
+
+
+.card-subscription-admin{
+    width: 330px;
+    height: 420px;
+    border-radius: 20px;
+    background-size: cover;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid var(--color-darkgray);
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
+
+.card-details-subscription-admin {
+    color: var(--color-black);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.card-button-subscription-admin {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card-subscription-admin:hover {
+    border-color: var(--color-red);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-subscription-admin:hover .card-button-subscription-admin {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+.card-button-training-plans {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-button-training-plans:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.card-ratio-container-training-plans {
+    aspect-ratio: 1 !important;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-ratio-container-training-plans img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card-img-training-plan-detail-user {
+    border-radius: 19px !important;
+}
+
+.card-link-training-plan-detail-user {
+    text-decoration: none;
+}
+
+.video-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.video-content {
+    position: relative;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 1100;
+}
+.btn-close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff5e5e;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.header-font-size-small{
+    font-size: 250%;
+}
+
+.exercise-check {
+    font-size: 1.8rem;
+    color: var(--color-gray);
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.exercise-check:hover {
+    color: var(--color-red);
+}
+
+.exercise-check.completed {
+    color: var(--color-red);
+    pointer-events: none;
+}
+
+.card-img-wrapper-training-plan-detail-user {
+    width: 300px;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    border-radius: 19px;
+    flex-shrink: 0;
+}
+
+.card-img-wrapper-training-plan-detail-user img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+

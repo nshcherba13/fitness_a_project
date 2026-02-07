@@ -1,0 +1,23 @@
+.header-white {
+    color: var(--color-white);
+}
+
+.login-btn {
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+
+.login-btn:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+div.bg-black {
+    background-color: var(--color-black) !important;
+}
+
+.logo-register {
+    width: 200px;
+    height: 200px;
+}
+

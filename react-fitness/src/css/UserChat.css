@@ -1,0 +1,8 @@
+.chat-container {
+    background: #f8f9fa;
+}
+
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+}

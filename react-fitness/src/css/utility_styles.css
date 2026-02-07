@@ -1,0 +1,47 @@
+.utility-text {
+    text-align: center;
+    padding: 50px;
+}
+.utility-h1 {
+    font-size: 3rem;
+    color: var(--color-red);
+}
+
+.utility-p {
+    font-size: 1.5rem;
+    color: var(--color-black);
+}
+
+.utility-link {
+    text-decoration: none;
+}
+
+.write-to-btn {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    height: 40px;
+    border-radius: 40px !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    border: none;
+    overflow: hidden;
+}
+
+.write-to-btn:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.write-to-btn:active {
+    background-color: var(--color-black) !important;
+    color: var(--color-white);
+}
+
+.subheader-trainer{
+    font-family: 'Antique Olive STD Nord', sans-serif !important;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 90%;
+}
