@@ -1,0 +1,31 @@
+/* Connecting Antique Olive STD Nord Italic for logo and headers */
+@font-face {
+    font-family: 'Antique Olive STD Nord';
+    src: url('../fonts/Antique Olive Std/Antique-Olive-Std-Nord-Italic_3867.ttf') format('truetype');
+    font-weight: 700; /* Nord font weight */
+    font-style: italic;
+}
+
+/* Connecting SF Pro Display Regular for headers and main text */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/San Francisco Pro Display/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Connecting SF Pro Display Black for footer slogan */
+@font-face {
+    font-family: 'SF Pro Display Black';
+    src: url('../fonts/San Francisco Pro Display/SF-Pro-Display-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Connecting SF Pro Display Black Italic for footer hashtag */
+@font-face {
+    font-family: 'SF Pro Display Black Italic';
+    src: url('../fonts/San Francisco Pro Display/SF-Pro-Display-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
