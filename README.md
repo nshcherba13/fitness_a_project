@@ -115,7 +115,6 @@ PORT=3003 npm start
 # 📝 Projektbeschreibung
 
 
-## ✨ Короткий опис проєкту
 
 Es wurde in diesem Projekt eine Plattform für Fitnessaktivitäten entwickelt. Die Nutzer können Trainingseinheiten auswählen, Ernährungsrezepte finden und mit Trainern kommunizieren.
 
