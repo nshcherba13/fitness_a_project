@@ -114,10 +114,11 @@ PORT=3003 npm start
 
 # 📝 Projektbeschreibung
 
-
-
 Es wurde in diesem Projekt eine Plattform für Fitnessaktivitäten entwickelt. Die Nutzer können Trainingseinheiten auswählen, Ernährungsrezepte finden und mit Trainern kommunizieren.
 
+
+## Demo
+🎥 [Watch demo video (Google Drive)](https://drive.google.com/file/d/1z1Xq3OoLVRLE8nnZPlO9_1bQKbPhu7mU/view?usp=sharing)
 
 ## 💻 Verwendete Technologien
 - **Laravel 11.9** – Für die Umsetzung der Backend-Funktionalität.
